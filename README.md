@@ -2,6 +2,9 @@
 Under the impact of COVID-19, keeping social distancing is very important. We use smartphone to recognize that wether the two people are close to each other.
 ## System Flow
 Recording videos to simulate people's sight. Use YOLOv4 to get the bounding box of items in every frame. Train a machine learning model by the position data between two people (video). Recognize the position relationship.
+
+  <img src=./demo.png width=80% />
+  
 ## result
 We have three label for position relationship. Using three classifier to train it.
 
